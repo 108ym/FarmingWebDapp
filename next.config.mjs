@@ -7,6 +7,9 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/FarmingWebDapp',
+  assetPrefix: '/FarmingWebDapp/',
   eslint: {
     ignoreDuringBuilds: true,
   },
